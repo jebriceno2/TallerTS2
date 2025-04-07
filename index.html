@@ -2,13 +2,13 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>TV Series</title>
+    <title>TV Series - Taller 2</title>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <!-- Tu CSS -->
+    <!-- Tus estilos -->
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
@@ -18,6 +18,7 @@
 
     <div class="container mt-4">
       <div class="row">
+        <!-- Columna de la tabla -->
         <div class="col-8">
           <table class="table table-striped">
             <thead>
@@ -38,10 +39,15 @@
             <span id="avgSeasons"></span>
           </p>
         </div>
+
+        <!-- Columna para la Card de detalle de la serie -->
+        <div class="col-4" id="card-container">
+          <!-- Aquí se insertará la Card al dar clic en una serie -->
+        </div>
       </div>
     </div>
 
-    <!-- Carga el JavaScript compilado (TypeScript -> JavaScript) -->
+    <!-- JavaScript compilado (TypeScript -> JavaScript) -->
     <script src="./dist/main.js" type="module"></script>
   </body>
 </html>

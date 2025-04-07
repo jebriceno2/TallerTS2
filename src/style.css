@@ -1,12 +1,11 @@
 /* src/style.css */
 .header-bar {
-    background-color: #0099a5;
-    color: #fff;
-    padding: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .header-bar h1 {
-    margin: 0;
-  }
-  
+  background-color: #0099a5;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header-bar h1 {
+  margin: 0;
+}
